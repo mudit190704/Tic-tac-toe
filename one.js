@@ -11,10 +11,12 @@ boxes.forEach((box) =>{
         console.log("box click")
         if(turn0){
             box.innerText="O";
+            box.style.color="red";
             turn0=false;
         }
         else{
             box.innerText="X"
+            box.style.color="green";
             turn0=true;
             
         }
